@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+'use strict';
+
+
+var program = require('commander');
+
+var pkg = require('../package.json');
+var hachi = require('../lib/hachi');
+
+
+program
+  .description(pkg.description)
+  .option('-v, --version', 'output the version number')
+  .on('version', function() {
+    console.log(pkg.version);
+  }).on('--help', function() {
+    console.log('  Help: hachi -h  ');
+  });
+
+
+// koa
+program.command('koa')
+  .description('init koa project')
+  .action(function() {
+    hachi.koa();
+  });
+
+
+// eslint
+program.command('eslint')
+  .action(function () {
+    hachi.eslint();
+  });
+
+// inpm
+program.command('inpm')
+  .action(function () {
+    hachi.inpm();
+  });
+
+// igit
+program.command('igit')
+  .action(function () {
+    hachi.igit();
+  });
+
+program.parse(process.argv);
+
+

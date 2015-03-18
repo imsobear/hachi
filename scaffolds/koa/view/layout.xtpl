@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>koa</title>
+
+</head>
+<body>
+
+	{{include ("./partials/header")}}
+
+	<div class="hachi-content">
+		{{{block ("body")}}}
+	</div>
+
+	{{include ("./partials/footer")}}
+
+</body>
+</html>

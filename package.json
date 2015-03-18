@@ -1,0 +1,16 @@
+{
+  "name": "hachi",
+  "version": "0.0.1",
+  "description": "My scaffolds",
+  "main": "index.js",
+  "bin": {
+    "hachi": "./bin/hachi"
+  },
+  "scripts": {},
+  "author": "sobear",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.7.1",
+    "lodash": "^3.5.0"
+  }
+}
