@@ -1,6 +1,6 @@
 {
-  "name": "hachi",
-  "version": "0.0.1",
+  "name": "heyhachi",
+  "version": "1.0.0",
   "description": "My scaffolds",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.7.1",
-    "lodash": "^3.5.0"
+    "lodash": "^3.5.0",
+    "shelljs": "^0.4.0"
   }
 }

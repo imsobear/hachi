@@ -8,14 +8,16 @@
     "amd": true
   },
   "ecmaFeatures": {
-    "jsx": true
+    "jsx": true,
+    "genetator": true
   },
   "globals": {
     "KISSY": true,
     "React": true
   },
   "rules": {
-    "eqeqeq": 1,                // !=, == 会报警
-    "quotes": [1, "single"]      // 双引号会报警
+    "eqeqeq": 1,
+    "quotes": [1, "single"],
+    "strict": 0
   }
 }
