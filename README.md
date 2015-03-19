@@ -11,7 +11,7 @@
 ## install
 
 ```
-tnpm i -g heyhachi
+tnpm i -g hachi.js
 ```
 
 ## use
