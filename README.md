@@ -23,14 +23,14 @@ init koa app, [detail](./scaffolds/koa/README.md)
 
 ### `hachi eslint`
 
-generate `.eslintrc`, [detail](./scaffolds/config/README.md)
+generate `.eslintrc`, [detail](./scaffolds/configs/README.md)
 
 ### `hachi igit`
 
-generate `.gitignore`, [detail](./scaffolds/config/README.md)
+generate `.gitignore`, [detail](./scaffolds/configs/README.md)
 
 ### `hachi inpm`
 
-generate `.npmignore`, [detail](./scaffolds/config/README.md)
+generate `.npmignore`, [detail](./scaffolds/configs/README.md)
 
 :)
